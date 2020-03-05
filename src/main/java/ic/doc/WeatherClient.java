@@ -5,7 +5,9 @@ import com.weather.Forecast;
 import com.weather.Forecaster;
 import com.weather.Region;
 
-public class Example {
+public class WeatherClient {
+
+  WeatherService WeatherService;
 
   public static void main(String[] args) {
 
