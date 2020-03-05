@@ -2,6 +2,6 @@ package ic.doc;
 
 public interface WeatherService {
 
-  public void request(String weatherSearch);
+  public String request(String weatherSearch);
 
 }
